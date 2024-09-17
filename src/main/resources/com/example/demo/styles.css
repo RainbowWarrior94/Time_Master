@@ -1,0 +1,94 @@
+.combo-box {
+    -fx-font-family: "Palatino Linotype";
+    -fx-font-size: 14px;
+    -fx-text-fill: #008b8b;
+    -fx-border-color: transparent;
+}
+.combo-box .list-cell {
+    -fx-text-fill: #008b8b;  
+    -fx-background-color: #77D1D4;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: #008B8B;
+    -fx-border: 0;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #20B2AA;
+    -fx-background-radius: 5;
+}
+.scroll-bar:vertical .track {
+    -fx-background-color: #E0FFFF;
+}
+
+.date-picker .arrow-button {
+	-fx-background-color: #77D1D4;
+	-fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+	-fx-background-color: #008b8b;
+}
+.date-picker .arrow-button .arrow {
+	-fx-background-color: #008b8b;
+}
+.date-picker .cell {
+	-fx-background-color: white;
+	-fx-background-radius: 5 5 5 5;
+}
+.date-picker .cell:hover {
+	-fx-background-color:  #E0FFFF;
+	-fx-text-fill: #008b8b;
+}
+.date-picker .cell:focused {
+	-fx-background-color:  #20B2AA;
+	-fx-text-fill: #008b8b;
+}
+.date-picker .selected {
+	-fx-background-color: #77D1D4;
+	-fx-text-fill: #008b8b;
+}
+.date-picker .selected:focused {
+	-fx-background-color: #77D1D4;
+	-fx-text-fill: #008b8b;
+}
+.date-picker-popup  {
+	-fx-border-color: transparent;
+	-fx-background-radius: 5 5 5 5;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: #77D1D4;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: #008b8b;
+}
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: #008b8b;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: #008b8b;
+}
+
+#alarmsListView {
+    -fx-font-family: "Palatino Linotype";
+    -fx-font-size: 14px;
+}
+#alarmsListView .list-cell:even {
+    -fx-background-color:  #E0FFFF;
+    -fx-text-fill: #008b8b;
+}
+#alarmsListView .list-cell:odd {
+    -fx-background-color:  #E0FFFF;
+    -fx-text-fill: #008b8b;
+}
+#alarmsListView .list-cell:selected {
+    -fx-background-color: #20B2AA;
+    -fx-text-fill: LIGHTCYAN;
+}
+
+.delete-button {
+    -fx-background-color: red; /* Цвет фона кнопки */
+    -fx-text-fill: white; /* Цвет текста на кнопке */
+    -fx-font-size: 12px; /* Размер шрифта */
+}
